@@ -1,0 +1,1 @@
+En este challenge decidi utlizar la Display:grid para diagramar las tarjetras.
