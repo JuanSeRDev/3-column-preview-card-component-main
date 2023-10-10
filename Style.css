@@ -24,7 +24,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 915px;
     
 }
 
@@ -109,8 +108,10 @@ p {
     color: var(--Transparent-white-paragraphs);
 }
 
-@media screen and (min-width:376px) {
-    
+@media screen and (min-width:900px) {
+    body {
+        height: 912px;
+    }
     .container {
         display: flex;
         flex-direction: row;
@@ -119,7 +120,6 @@ p {
     .card {
         width: 300px;
         height: 500px;
-        
     }
 
     .botton {
@@ -140,8 +140,6 @@ p {
         border-bottom-left-radius: 0;
     }
 }
-
-
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
